@@ -7,8 +7,9 @@ public class Bakery {
 		
 	}
 	
-	public void /*KEKSDOSE*/ processOrder(/*Order order*/) {
+	public Keksdose processOrder(Bestellung order) {
 		
+		return new Keksdose();
 		//TODO: will process the order
 		
 	}
