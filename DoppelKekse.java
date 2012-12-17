@@ -1,4 +1,6 @@
-
+/**
+ * @author Matthias Gusenbauer, Wolfgang Hofer, Alexander Neff
+ */
 public class DoppelKekse extends Kekse {
 	private final Filling filling;
 	
