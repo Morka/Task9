@@ -19,7 +19,9 @@ public class Bakery {
 			
 			for(int i = 0; i < cookieCount; i++) {
 				
-				//DO BAKING COOKIES FOR SANTA
+				//FUCK OFF SANTA!!!!! 
+				//MACHINE!!! BACK COOKIES FOR THE CHRISTKINDL!!!!
+				
 				
 			}
 			
