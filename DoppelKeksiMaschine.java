@@ -1,23 +1,14 @@
 
 public class DoppelKeksiMaschine extends Maschine {
 	
-	private Filling filling;
-	
-	public DoppelKeksiMaschine(Filling fill) {
-		
-		this.filling = fill;
+	public DoppelKeksiMaschine() {
+
 		
 	}
 	
-	public void insertNewFilling(Filling fill) {
+	public DoppelKekse reproduceKeksi(Kekse sourceCookie, Filling fill) {
 		
-		this.filling = fill;
-		
-	}
-	
-	public DoppelKekse reproduceKeksi(Kekse sourceCookie) {
-		
-		return new DoppelKekse(sourceCookie.getDough(), sourceCookie.getShape(), this.filling);
+		return new DoppelKekse(sourceCookie.getDough(), sourceCookie.getShape(), fill);
 		
 	}
 
