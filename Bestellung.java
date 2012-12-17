@@ -10,8 +10,13 @@ public class Bestellung {
 		positionList = new ArrayList<Position>();
 	}
 	
+	
 	public void insertNewPosition(Position position){
 		positionList.add(position);
+	}
+	
+	public ArrayList<Position> getPositionList(){
+		return positionList;
 	}
 	
 	public String toString(){
