@@ -49,10 +49,10 @@ public class Bestellung {
 	 * @return String that describes the Bestellung
 	 * */
 	public String toString(){
-		String ret = "";
+		String ret = "Bestellung: \n";
 		
 		for(Position p : positionList){
-			ret += p.toString();
+			ret += p.toString() + "\n";
 		}
 		
 		return ret;

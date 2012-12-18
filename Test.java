@@ -34,10 +34,20 @@ public class Test {
 		bestellung2.insertNewPosition(position4);
 		bestellung2.insertNewPosition(position2);
 		
-		System.out.println(bestellung2.drucke());
+		System.out.println("BESTELLUNG 1");
+		System.out.println(bestellung1.drucke());
 		
 		Keksdose keksdose1 = bakery1.processOrder(bestellung1);
 		
 		System.out.println(keksdose1.inhalt());
+		
+		System.out.println("BESTELLUNG 2");
+		System.out.println(bestellung2.drucke());
+		
+		Keksdose keksdose2 = bakery1.processOrder(bestellung2);
+
+		
+		
+
 	}
 }

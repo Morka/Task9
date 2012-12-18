@@ -20,6 +20,6 @@ public abstract class Kekse {
 	}
 	
 	public String toString(){
-		return "Dough " + dough + " Shape: " + shape;
+		return "Dough: " + dough + " Shape: " + shape;
 	}
 }
