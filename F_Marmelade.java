@@ -7,6 +7,6 @@ public class F_Marmelade implements Filling {
 	
 	//returns a string representation containing the name of the filling
 	public String toString() {
-		return "Marmeladefüllung";
+		return "Marmeladefuellung";
 	}
 }

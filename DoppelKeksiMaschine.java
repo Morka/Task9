@@ -1,4 +1,6 @@
-
+/**
+ * @author Matthias Gusenbauer, Wolfgang Hofer, Alexander Neff
+ */
 public class DoppelKeksiMaschine extends Maschine {
 	
 	public DoppelKeksiMaschine() {

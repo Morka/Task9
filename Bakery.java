@@ -1,5 +1,8 @@
-import java.util.ArrayList;
+/**
+ * @author Matthias Gusenbauer, Wolfgang Hofer, Alexander Neff
+ */
 
+import java.util.ArrayList;
 
 public class Bakery {
 	
@@ -21,7 +24,6 @@ public class Bakery {
 				
 				//FUCK OFF SANTA!!!!! 
 				//MACHINE!!! BACK COOKIES FOR THE CHRISTKINDL!!!!
-				
 				
 			}
 			

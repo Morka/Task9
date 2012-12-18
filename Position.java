@@ -2,12 +2,7 @@
  * @author Matthias Gusenbauer, Wolfgang Hofer, Alexander Neff
  */
 
-/**
- * At the moment Position filling is null for EinfacheKese and not null for Doppelkekse. I am not yet sure, 
- * whether or not i like it that way...
- * 
- * A Position could also contain only the number of Cookies and an object of either Doppelkeks or Einfachkeks. 
- * */
+
 public class Position {	
 	private int numberOfCookies;
 	private Dough dough;
