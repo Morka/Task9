@@ -5,9 +5,9 @@
 public class M_MondKeksiMaschine extends EinfachKeksiMaschine {
 
 	@Override
-	public void bake(Dough teig) {
-		// TODO Auto-generated method stub
-
+	public EinfacheKekse bake(Dough teig) {
+	
+		return new EinfacheKekse(teig, new S_Mond());
 	}
 
 }

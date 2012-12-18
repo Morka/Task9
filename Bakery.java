@@ -6,12 +6,8 @@ import java.util.ArrayList;
 
 public class Bakery {
 	
-	MaschinenProxy roxyTheProxy;
-	
 	public Bakery() {
-		
-		this.roxyTheProxy = new MaschinenProxy();
-		
+
 	}
 	
 	public Keksdose processOrder(Bestellung order) {
@@ -29,11 +25,11 @@ public class Bakery {
 				if(p.getFilling() != null){
 					
 					//System.out.println("SINGLE KEKSI!");
-					insertList.add(roxyTheProxy.bake(p.getShape()));//DAMMIT! wie waehl i aus? hurrerei!
+					insertList.add(p.getShape().bakeWith().bake(p.getDough()));//DAMMIT! wie waehl i aus? hurrerei!
 					
 				} else {
-					
-					insertList.add(roxyTheProxy.bakeDouble(p.getFilling()));
+					EinfacheKekse tmpEinfacherKeks = new EinfacheKekse(p.getDough(), p.getShape());
+					insertList.add(HAB ICH MIR NOCH NICHT UEBERLEGT MASHCINE.reproduceKeksi(tmpEinfacherKeks, p.getFilling()));
 					
 				}
 				

@@ -9,4 +9,8 @@ public class S_Rund implements Shape {
 	public String toString() {
 		return "Rundform";
 	}
+	
+	public M_RundKeksiMaschine bakeWith(){
+		return new M_RundKeksiMaschine();
+	}
 }

@@ -9,4 +9,8 @@ public class S_Weihnachtsmann implements Shape {
 	public String toString() {
 		return "Weihnachtsmannform";
 	}
+	
+	public M_SantaKeksiMaschine bakeWith(){
+		return new M_SantaKeksiMaschine();
+	}
 }

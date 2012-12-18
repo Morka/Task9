@@ -9,4 +9,8 @@ public class S_Mond implements Shape {
 	public String toString() {
 		return "Mondform";
 	}
+	
+	public M_MondKeksiMaschine bakeWith(){
+		return new M_MondKeksiMaschine();
+	}
 }
