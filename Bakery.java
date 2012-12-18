@@ -6,7 +6,11 @@ import java.util.ArrayList;
 
 public class Bakery {
 	
+	private static DoppelKeksiMaschine doubleMachine;
+	
 	public Bakery() {
+		
+		doubleMachine = new DoppelKeksiMaschine();
 
 	}
 	
@@ -25,11 +29,12 @@ public class Bakery {
 				if(p.getFilling() != null){
 					
 					//System.out.println("SINGLE KEKSI!");
-					insertList.add(p.getShape().bakeWith().bake(p.getDough()));//DAMMIT! wie waehl i aus? hurrerei!
+					insertList.add(p.getShape().bakeWith().bake(p.getDough()));
 					
 				} else {
+					
 					EinfacheKekse tmpEinfacherKeks = new EinfacheKekse(p.getDough(), p.getShape());
-					insertList.add(HAB ICH MIR NOCH NICHT UEBERLEGT MASHCINE.reproduceKeksi(tmpEinfacherKeks, p.getFilling()));
+					insertList.add(doubleMachine.reproduceKeksi(tmpEinfacherKeks, p.getFilling()));
 					
 				}
 				
