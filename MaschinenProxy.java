@@ -12,5 +12,29 @@ public class MaschinenProxy {
 		this.doubleMachine = new DoppelKeksiMaschine();
 		
 	}
+	
+	public EinfacheKekse bake(S_Rund roundShape) {
+		
+		return null;
+		
+	}
+	
+	public EinfacheKekse bake(S_Mond moonShape) {
+		
+		return null;
+		
+	}
+	
+	public EinfacheKekse bake(S_Weihnachtsmann santaShape) {
+		
+		return null;
+		
+	}
+	
+	public DoppelKekse bakeDouble(Filling fill) {
+		
+		return null;
+		
+	}
 
 }
