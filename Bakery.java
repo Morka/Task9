@@ -6,16 +6,19 @@ import java.util.ArrayList;
 
 public class Bakery {
 	
-	private static DoppelKeksiMaschine doubleMachine;
+	private final DoppelKeksiMaschine doubleMachine;
 	
+	//Postcondition: doubleMachine is instantiated with doubleMachine = new DoppelKeksiMaschine()
 	public Bakery() {
 		
-		doubleMachine = new DoppelKeksiMaschine();
+		this.doubleMachine = new DoppelKeksiMaschine();
 
 	}
 	
+	//Precondition: order != null
+	//Postcondition: returns a Keksdose containing all Kekse according to order != null;
 	public Keksdose processOrder(Bestellung order) {
-		
+
 		ArrayList<Position> orderList = order.getPositionList();
 		Keksdose cookieJar = new Keksdose();
 		
@@ -27,8 +30,7 @@ public class Bakery {
 			for(int i = 0; i < cookieCount; i++) {
 				
 				if(p.getFilling() != null){
-					
-					//System.out.println("SINGLE KEKSI!");
+
 					insertList.add(p.getShape().bakeWith().bake(p.getDough()));
 					
 				} else {
@@ -39,7 +41,7 @@ public class Bakery {
 				}
 				
 			}
-			
+
 			cookieJar.fillInCookies(insertList);
 			
 		}
