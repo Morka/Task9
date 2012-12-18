@@ -32,22 +32,11 @@ public class Keksdose {
 	
 	public String inhalt(){
 		String ret = "";
-		String tmp = "";
-		String equal = "";
-		int count = 0;
 		
 		Iterator<Kekse> iter = cookies.iterator();
 		
 		while(iter.hasNext()){
-			tmp = iter.next().toString();
-			
-			if(tmp.equals(equal)){
-				ret += "Anzahl: " + count + " " + equal + "\n";
-				count = 0;
-				equal = tmp;
-				count++;
-			}
-			count++;
+			ret += iter.next().toString() + "\n";
 		}
 		
 		return ret;
