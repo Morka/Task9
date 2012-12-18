@@ -20,7 +20,7 @@ public class Keksdose {
 	//Precondition: cookies != null
 	//Postcondition: cookies stores more cookies now
 	public void fillInCookies(ArrayList<Kekse> cookiesList){
-		for(Kekse k : cookies){
+		for(Kekse k : cookiesList){
 			cookies.push(k);
 		}
 	}
@@ -36,7 +36,7 @@ public class Keksdose {
 		Iterator<Kekse> iter = cookies.iterator();
 		
 		while(iter.hasNext()){
-			ret += iter.next().toString();
+			ret += iter.next().toString() + "\n";
 		}
 		
 		return ret;

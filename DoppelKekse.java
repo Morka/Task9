@@ -13,4 +13,8 @@ public class DoppelKekse extends Kekse {
 	public Filling getFilling(){
 		return filling;
 	}
+	
+	public String toString(){
+		return super.toString() + " Filling: " + filling;
+	}
 }

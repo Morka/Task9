@@ -18,4 +18,8 @@ public abstract class Kekse {
 	public Shape getShape(){
 		return shape;
 	}
+	
+	public String toString(){
+		return "Dough " + dough + " Shape: " + shape;
+	}
 }

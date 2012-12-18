@@ -30,7 +30,6 @@ public class Bakery {
 			for(int i = 0; i < cookieCount; i++) {
 				
 				if(p.getFilling() != null){
-
 					insertList.add(p.getShape().bakeWith().bake(p.getDough()));
 					
 				} else {
