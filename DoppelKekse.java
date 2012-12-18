@@ -15,6 +15,6 @@ public class DoppelKekse extends Kekse {
 	}
 	
 	public String toString(){
-		return super.toString() + " Filling: " + filling;
+		return super.toString() + " Fuellung: " + filling;
 	}
 }

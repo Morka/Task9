@@ -32,10 +32,12 @@ public class Keksdose {
 	
 	public String inhalt(){
 		String ret = "";
+		String tmp = "";
 		
 		Iterator<Kekse> iter = cookies.iterator();
 		
 		while(iter.hasNext()){
+			
 			ret += iter.next().toString() + "\n";
 		}
 		
@@ -48,11 +50,11 @@ public class Keksdose {
 	 * */
 	public String toString(){
 		String ret;
-		if(cookies.size() > 5){
-			ret = "The cookie box contains only " + cookies.size() + " cookies :(";
+		if(cookies.size() <= 5){
+			ret = "Die Keksdose beinhaltet nur " + cookies.size() + " Kekse :(";
 		}
 		else{
-			ret = "The cookie box contains " + cookies.size() + " cookies :-)";
+			ret = "Die Keksdose beinhaltet " + cookies.size() + " Kekse :-)";
 		}
 		return ret;
 	}

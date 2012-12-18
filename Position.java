@@ -36,9 +36,9 @@ public class Position {
 		String ret;
 		
 		if(filling != null){
-			ret = "Quantity: " + this.numberOfCookies + " Dough: " + dough + " Shape: " + shape + " Filling: " + filling;
+			ret = "Anzahl: " + this.numberOfCookies + " Teig: " + dough + " Form: " + shape + " Fuellung: " + filling;
 		}else{
-			ret = "Quantity: " + this.numberOfCookies + " Dough: " + dough + " Shape: " + shape;
+			ret = "Anzahl: " + this.numberOfCookies + " Teig: " + dough + " Form: " + shape;
 		}
 		
 		return ret;

@@ -39,15 +39,16 @@ public class Test {
 		
 		Keksdose keksdose1 = bakery1.processOrder(bestellung1);
 		
+		System.out.println("Keksdose1 inhalt");
+		System.out.println(keksdose1.toString());
 		System.out.println(keksdose1.inhalt());
 		
 		System.out.println("BESTELLUNG 2");
 		System.out.println(bestellung2.drucke());
 		
 		Keksdose keksdose2 = bakery1.processOrder(bestellung2);
-
-		
-		
-
+		System.out.println("Keksdose2 inhalt");
+		System.out.println(keksdose2.toString());
+		System.out.println(keksdose2.inhalt());
 	}
 }
