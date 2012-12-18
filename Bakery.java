@@ -8,8 +8,6 @@ public class Bakery {
 	
 	public Bakery() {
 		
-		//TODO: create all machines
-		
 	}
 	
 	public Keksdose processOrder(Bestellung order) {
@@ -22,8 +20,15 @@ public class Bakery {
 			
 			for(int i = 0; i < cookieCount; i++) {
 				
-				//FUCK OFF SANTA!!!!! 
-				//MACHINE!!! BACK COOKIES FOR THE CHRISTKINDL!!!!
+				if(p.getFilling() != null){
+					
+					System.out.println("SINGLE KEKSI!");
+					
+				} else {
+					
+					
+					
+				}
 				
 			}
 			
