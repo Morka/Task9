@@ -15,15 +15,7 @@ public class Position {
 		this.shape = shape;
 		this.filling = filling;
 	}
-	/*
-	 * 
-	 * 
-	 * MEMO: NOT SURE IF WE NEED ALL OF THE GETTER METHOD!!!
-	 * DELETE IF UNNECESSARY
-	 * 
-	 * 
-	 * 
-	 * */
+	
 	public int getnumberOfCookies(){
 		return numberOfCookies;
 	}
